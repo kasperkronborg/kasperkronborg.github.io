@@ -1,0 +1,5 @@
+baseURL = 'https://kasperkronborg.github.io'
+languageCode = 'en-us'
+title = 'Kasper Kronborg'
+disableKinds = ["taxonomy", "sitemap", "rss"]
+

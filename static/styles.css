@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@import url('/reset.css');
+
+:root {
+  --kk-color-deep-forest-50: #E8ECE4;
+  --kk-color-deep-forest-100: #D1D9C9;
+  --kk-color-deep-forest-200: #A3B394;
+  --kk-color-deep-forest-300: #758962;
+  --kk-color-deep-forest-400: #47533B;
+  --kk-color-deep-forest-500: #181C14;
+  --kk-color-deep-forest-600: #141811;
+  --kk-color-deep-forest-700: #0F120D;
+  --kk-color-deep-forest-800: #0A0C08;
+  --kk-color-deep-forest-900: #050604;
+  --kk-color-deep-forest-950: #030302;
+
+  --kk-color-forest-shadow-50: #EBECEA;
+  --kk-color-forest-shadow-100: #DADBD7;
+  --kk-color-forest-shadow-200: #B3B4AC;
+  --kk-color-forest-shadow-300: #8E9084;
+  --kk-color-forest-shadow-400: #64665C;
+  --kk-color-forest-shadow-500: #3C3D37;
+  --kk-color-forest-shadow-600: #2F302C;
+  --kk-color-forest-shadow-700: #252622;
+  --kk-color-forest-shadow-800: #181816;
+  --kk-color-forest-shadow-900: #0D0D0C;
+  --kk-color-forest-shadow-950: #050505;
+
+  --kk-color-sagebrush-500: #697565;
+  --kk-color-sandstone-500: #ECDFCC;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(var(--kk-color-deep-forest-700), var(--kk-color-forest-shadow-700));
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-inline: 5rem;
+  background-color: var(--kk-color-forest-shadow-700);
+}
+
+h1 {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #BD904D;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #F0E6D6;
+  text-wrap: balance;
+}
+
+a {
+  color: #00BFFF;
+  color: rgb(128, 159, 255);
+  text-decoration: none;
+}
